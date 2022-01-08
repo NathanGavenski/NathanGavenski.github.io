@@ -1,0 +1,13 @@
+{
+    "publications": [
+        {
+            "title": "Efficient Counterfactual Debiasing for Visual Question Answering",
+            "authors": "Camila Kolling, Martin More, Nathan Gavenski, Eduardo Pooch, Otávio Parraga, Rodrigo C. Barros",
+            "conference": "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision",
+            "year": "WACV 2002",
+            "bibtex": "@InProceedings{Kolling_2022_WACV,\n\tauthor    = {Kolling, Camila and More, Martin and Gavenski, Nathan and Pooch, Eduardo and Parraga, Ot\\'avio and Barros, Rodrigo C.},\n\ttitle     = {Efficient Counterfactual Debiasing for Visual Question Answering},\n\tbooktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},\n\tmonth     = {January},\n\tyear      = {2022},\n\tpages     = {3001-3010}\n}",
+            "pdf": "https://openaccess.thecvf.com/content/WACV2022/papers/Kolling_Efficient_Counterfactual_Debiasing_for_Visual_Question_Answering_WACV_2022_paper.pdf",
+            "github": ""
+        }
+    ]
+}

@@ -1,25 +1,65 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './App.scss';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import { Container } from 'react-bootstrap';
+import { Routes, Route } from 'react-router-dom';
+
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
+import Publications from './pages/Publications';
+import Experience from './pages/Experience';
+import { ThemeContext } from './services/ThemeService';
+import { NavigationContext } from './services/NavigationService';
+
+
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.toggleTheme = () => {
+      this.setState((prevState) => ({
+        theme: prevState.theme === 'dark' ? 'light' : 'dark'
+      }));
+    }
+
+    this.toggleMenu = (e) => {
+      this.setState(({
+        menu: e.target.text.toLowerCase()
+      }));
+    }
+
+    this.state = {
+      theme: "dark",
+      toggleTheme: this.toggleTheme,
+
+      menu: "home",
+      toggleMenu: this.toggleMenu,
+    }
+  }
+
+  render = () => {
+    const theme = this.state.theme;
+    const toggleTheme = this.toggleTheme;
+
+    const menu = this.state.menu;
+    const toggleMenu = this.toggleMenu;
+
+    return (
+      <div className={"App " + (this.state.theme === 'dark' ? 'dark' : 'light')} >
+        <ThemeContext.Provider value={{ theme, toggleTheme }}>
+          <NavigationContext.Provider value={{ menu, toggleMenu }}>
+            <Navbar />
+          </NavigationContext.Provider>
+          <Container className="page">
+            <Routes>
+              <Route exact path='/' element={<Home />} />
+              <Route path='publications' element={<Publications />} />
+              <Route path='experience' element={<Experience />} />
+            </Routes>
+          </Container>
+        </ThemeContext.Provider>
+      </div >
+    );
+  };
 }
 
 export default App;
