@@ -10,7 +10,7 @@ function template() {
     <div className="home">
       <Row className="greetings">
         <Col className="col">
-          <span className="emoji" role="img" aria-label="waving hand">👋</span>
+          <span className="emoji" role="img" aria-label="waving-hand">👋</span>
           <div className="text">
             <h1 className="title"> Hi there, </h1>
             <h2 className="subtitle"> It's nice to meet you! </h2>

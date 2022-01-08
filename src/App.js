@@ -28,7 +28,7 @@ class App extends React.Component {
     }
 
     this.state = {
-      theme: "dark",
+      theme: "light",
       toggleTheme: this.toggleTheme,
 
       menu: "home",
@@ -51,7 +51,7 @@ class App extends React.Component {
           </NavigationContext.Provider>
           <Container className="page">
             <Routes>
-              <Route exact path='/' element={<Home />} />
+              <Route path='/' element={<Home />} />
               <Route path='publications' element={<Publications />} />
               <Route path='experience' element={<Experience />} />
             </Routes>

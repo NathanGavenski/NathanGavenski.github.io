@@ -28,14 +28,14 @@ function template(checked, setChecked) {
                     </Link>
                     <Link
                       className={"nav-link link " + (menu === "publications" ? 'active' : '')}
-                      to="/publications"
+                      to="publications"
                       onClick={(e) => toggleMenu(e)}
                     >
                       Publications
                     </Link>
                     <Link
                       className={"nav-link link " + (menu === "experience" ? 'active' : '')}
-                      to="/experience"
+                      to="experience"
                       onClick={(e) => toggleMenu(e)}
                     >
                       Experience

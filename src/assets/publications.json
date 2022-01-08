@@ -2,12 +2,52 @@
     "publications": [
         {
             "title": "Efficient Counterfactual Debiasing for Visual Question Answering",
-            "authors": "Camila Kolling, Martin More, Nathan Gavenski, Eduardo Pooch, Otávio Parraga, Rodrigo C. Barros",
-            "conference": "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision",
-            "year": "WACV 2002",
+            "authors": "Kolling, Camila; More, Martin; Gavenski, Nathan; Pooch, Eduardo; Parraga, Otávio and Barros, Rodrigo C.",
+            "conference": "In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision",
+            "year": "WACV 2022",
             "bibtex": "@InProceedings{Kolling_2022_WACV,\n\tauthor    = {Kolling, Camila and More, Martin and Gavenski, Nathan and Pooch, Eduardo and Parraga, Ot\\'avio and Barros, Rodrigo C.},\n\ttitle     = {Efficient Counterfactual Debiasing for Visual Question Answering},\n\tbooktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},\n\tmonth     = {January},\n\tyear      = {2022},\n\tpages     = {3001-3010}\n}",
             "pdf": "https://openaccess.thecvf.com/content/WACV2022/papers/Kolling_Efficient_Counterfactual_Debiasing_for_Visual_Question_Answering_WACV_2022_paper.pdf",
             "github": ""
+        },{
+            "title": "Self-supervised imitation learning from observation",
+            "authors": "Gavenski, Nathan; and Barros, Rodrigo C.",
+            "conference": "Pontifícia Universidade Católica do Rio Grande do Sul",
+            "year": "2021",
+            "bibtex": "@mastersthesis{gavenski2021self,\n\ttitle={Self-supervised imitation learning from observation},\n\tauthor={Gavenski, Nathan Schneider},\n\tyear={2021},\n\tschool={Pontif{\\'\\i}cia Universidade Cat{\\'o}lica do Rio Grande do Sul}\n}",
+            "pdf": "https://repositorio.pucrs.br/dspace/bitstream/10923/17536/1/000500266-Texto%2Bcompleto-0.pdf",
+            "github": ""
+        }, {
+            "title": "Object-Based Goal Recognition UsingReal-World Data",
+            "authors": "Granada, Roger; Monteiro, Juarez; Gavenski, Nathan; and Meneguzzi, Felipe",
+            "conference": "In Proceedings of the 19th Mexican International Conference on Artificial Intelligence",
+            "year": "MICAI 2020",
+            "bibtex": "@inproceedings{granada2020object,\n\ttitle={Object-Based Goal Recognition Using Real-World Data},\n\tauthor={Granada, Roger and Monteiro, Juarez and Gavenski, Nathan and Meneguzzi, Felipe},\n\tbooktitle={Mexican International Conference on Artificial Intelligence},\n\tpages={325--337},\n\tyear={2020},\n\torganization={Springer}\n}",
+            "pdf": "https://link.springer.com/chapter/10.1007/978-3-030-60884-2_24",
+            "github": ""
+        }, {
+            "title": "Imitating Unknown Policies via Exploration",
+            "authors": "Gavenski, Nathan; Monteiro, Juarez; Granada, Roger; Meneguzzi, Felipe; and Barros, Rodrigo C.",
+            "conference": "In Proceedings of the 31st British Machine Vision Conference",
+            "year": "BMVC 2020",
+            "bibtex": "@inproceedings{gavenski2020iupe,\n\tauthor = Gavenski, Nathan and Monteiro, Juarez and Granada, Roger and Meneguzzi, Felipe and Barros, Rodrigo C,\n\tpages = 1--8,\n\ttitle = Imitating Unknown Policies via Exploration,\n\turl = https://www.bmvc2020-conference.com/conference/papers/paper_0774.html,\n\tyear = 2020,\n\tbooktitle = International British Machine Vision Virtual Conference\n}",
+            "pdf": "https://arxiv.org/pdf/2008.05660.pdf",
+            "github": "https://github.com/NathanGavenski/IUPE" 
+        }, {
+            "title": "Augmented Behavioral Cloning from Observation",
+            "authors": "Monteiro, Juarez; Gavenski, Nathan; Granada, Roger; Meneguzzi, Felipe; and Barros, Rodrigo C.",
+            "conference": "In Proceedings of the 33rd International Joint Conference on Neural Networks",
+            "year": "IJCNN 2020",
+            "bibtex": "@inproceedings{MonteiroEtAl2020abco,\n\tauthor = Monteiro, Juarez and Gavenski, Nathan and Granada, Roger and Meneguzzi, Felipe and Barros, Rodrigo C,\n\tlocation = Glasgow, Scotland,\n\tmonth = Jul,\n\tpages = 1--8,\n\ttitle = Augmented Behavioral Cloning from Observation,\n\turl = https://arxiv.org/abs/2004.13529,\n\tyear = 2020,\n\tbooktitle = International Joint Conference on Neural Networks\n}",
+            "pdf": "https://arxiv.org/pdf/2004.13529.pdf",
+            "github": "https://github.com/NathanGavenski/ABCO" 
+        }, {
+            "title": "Attention-based 3D Object Reconstructionfrom a Single Image",
+            "authors": "Salvi, Andrey; Gavenski, Nathan; Pooch, Eduardo; Tasoniero, Felipe; and Barros, Rodrigo C.",
+            "conference": "In Proceedings of the 33rd International Joint Conference on Neural Networks",
+            "year": "IJCNN 2020",
+            "bibtex": "@inproceedings{salvi2020attention,\n\ttitle={Attention-based 3D Object Reconstruction from a Single Image},\n\tauthor={Salvi, Andrey and Gavenski, Nathan and Pooch, Eduardo and Tasoniero, Felipe and Barros, Rodrigo},\n\tbooktitle={2020 International Joint Conference on Neural Networks (IJCNN)},\n\tpages={1--8},\n\tyear={2020},\n\torganization={IEEE}\n}",
+            "pdf": "https://arxiv.org/pdf/2008.04738.pdf",
+            "github": "" 
         }
     ]
 }

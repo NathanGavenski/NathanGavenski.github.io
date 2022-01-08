@@ -25,7 +25,7 @@ class Publication extends React.Component {
     this.setState({copy: true})
     window.setTimeout(() => {
       this.setState({copy: false})
-    }, 500);
+    }, 1000);
   }
 
   render = () => {
