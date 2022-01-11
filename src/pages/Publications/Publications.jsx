@@ -26,8 +26,8 @@ function template(publications) {
       <Row className="list">
         <Container>
           {publications.map((value, index) => (
-            <Row className="item">
-              <Publication value={value} key={value.title + index} />
+            <Row className="item" key={value.title + index} >
+              <Publication value={value} />
             </Row>
           ))}
         </Container>

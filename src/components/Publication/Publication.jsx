@@ -6,7 +6,7 @@ import { Overlay, Tooltip } from 'react-bootstrap';
 function template(title, authors, conference, year, bibtex, pdf, github, copy, copyState, copyRef) {
   return (
     <div className="publication">
-      <p className="text">
+      <div className="text">
         <span className="title">{title}</span>;
         <span className="authors">{' '}{authors}</span>
         <br />
@@ -14,7 +14,7 @@ function template(title, authors, conference, year, bibtex, pdf, github, copy, c
         <span className="year">{' '}({year})</span>
         <br />
         <div className="links">
-          {pdf.length > 0 && <a href={pdf} className="pdf">[PDF]</a>}
+          {pdf.length > 0 && <a href={pdf} target='_blank' className="pdf">[PDF]</a>}
           {bibtex.length > 0 &&
             <div className="button">
               <button className="bibtex" ref={copyRef} onClick={copy} onKeyDown={copy}>[Bibtex]</button>
@@ -27,9 +27,9 @@ function template(title, authors, conference, year, bibtex, pdf, github, copy, c
               </Overlay>
             </div>
           }
-          {github.length > 0 && <a href={github} className="github">[GitHub]</a>}
+          {github.length > 0 && <a href={github} target='_blank' className="github">[GitHub]</a>}
         </div>
-      </p>
+      </div>
     </div>
   );
 };
