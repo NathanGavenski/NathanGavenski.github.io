@@ -7,7 +7,7 @@ import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Publications from './pages/Publications';
-import Experience from './pages/Experience';
+import Experiences from './pages/Experiences';
 import { ThemeContext } from './services/ThemeService';
 import { NavigationContext } from './services/NavigationService';
 
@@ -53,7 +53,7 @@ class App extends React.Component {
             <Routes>
               <Route path='/' element={<Home />} />
               <Route path='publications' element={<Publications />} />
-              <Route path='experience' element={<Experience />} />
+              <Route path='experience' element={<Experiences />} />
             </Routes>
           </Container>
         </ThemeContext.Provider>

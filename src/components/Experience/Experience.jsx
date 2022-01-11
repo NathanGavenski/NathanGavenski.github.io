@@ -1,4 +1,4 @@
-import "./Experience.scss";
+import "./Experience.css";
 import React from "react";
 
 function template() {
