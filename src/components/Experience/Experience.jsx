@@ -1,10 +1,24 @@
-import "./Experience.css";
+import "./Experience.scss";
 import React from "react";
 
-function template() {
+import { Col, Row } from 'react-bootstrap';
+
+function template(title, year, extra) {
   return (
     <div className="experience">
-      <h1>Experience</h1>
+      <Row>
+        <Col xl={2}>
+          <p className="year">{year}</p>
+        </Col>
+
+        <Col>
+          <div className="title">
+
+            <p className="position">{title}</p>
+          </div>
+          <div className="extra">{extra}</div>
+        </Col>
+      </Row>
     </div>
   );
 };

@@ -6,16 +6,8 @@ class Navbar extends React.Component {
 		super();
 
 		this.state = {
-			menu: "home",
 			checked: false,
 		};
-	}
-
-	setActive = (e) => {
-		console.log(e.target.text.toLowerCase())
-		this.setState({
-			menu: e.target.text.toLowerCase()
-		});
 	}
 
 	setChecked = (toggleTheme) => {

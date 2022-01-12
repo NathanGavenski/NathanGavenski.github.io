@@ -2,6 +2,9 @@ import "./Home.scss";
 import React from "react";
 
 import { Col, Row } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGraduationCap } from '@fortawesome/free-solid-svg-icons'
 
 import avatar from '../../assets/avatar.jpg';
 
@@ -21,9 +24,9 @@ function template() {
       <Row className="content">
         <Col className="text" lg={8}>
           <p>
-            I'm currently an MSc student at PUCRS studying Computer Science. <br />
-            Now, I'm a part of the MALTA research group. <br />
-            My research areas are Imitation Learning and Computer Vision. <br />
+            I'm currently a PhD student at <a className="profile-link pucrs" href="http://www.pucrs.br/en/" target="_blank" rel="noreferrer">PUCRS</a> studying Computer Science. <br />
+            Currently, I'm a part of the <span className="malta">MALTA</span> research group. <br />
+            My research areas are <span className="research-field">Imitation Learning</span> and <span className="research-field">Computer Vision</span>. <br />
           </p>
 
           <p>
@@ -34,6 +37,20 @@ function template() {
             I am a fan of photography, technology, traveling, and music. <br />
             Feel free to contact me in any of the links below.
           </p>
+          <div className="socials">
+            <a href="https://twitter.com/NGavenski" target="_blank" rel="noreferrer">
+              <FontAwesomeIcon icon={faTwitter} className="icons" size="2x" />
+            </a>
+            <a href="https://www.linkedin.com/in/nathan-gavenski-87196449/" target="_blank" rel="noreferrer">
+              <FontAwesomeIcon icon={faLinkedin} className="icons" size="2x" />
+            </a>
+            <a href="https://scholar.google.com.br/citations?user=hX9WqxUAAAAJ" target="_blank" rel="noreferrer">
+              <FontAwesomeIcon icon={faGraduationCap} className="icons" size="2x" />
+            </a>
+            <a href="https://github.com/NathanGavenski" target="_blank" rel="noreferrer">
+              <FontAwesomeIcon icon={faGithub} className="icons" size="2x" />
+            </a>
+          </div>
         </Col>
         <Col className="image" lg={4}>
           <img className="avatar rounded-circle" src={avatar} alt="Avatar" />

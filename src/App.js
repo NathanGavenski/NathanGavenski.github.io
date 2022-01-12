@@ -36,6 +36,15 @@ class App extends React.Component {
     }
   }
 
+  componentDidMount = () => {
+    const menu = window.location.href.split('/').at(-1);
+    if (menu.length === 0) {
+      this.setState({menu: 'home'});
+    } else {
+      this.setState({menu: menu});
+    }
+  }
+
   render = () => {
     const theme = this.state.theme;
     const toggleTheme = this.toggleTheme;

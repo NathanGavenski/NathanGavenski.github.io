@@ -36,6 +36,46 @@
             align-content: center;
             justify-content: center;
             padding-right: 2.5rem;
+
+            a {
+                text-decoration: unset;
+            }
+
+            a,
+            span {
+                font-weight: 700;
+            }
+
+            .pucrs {
+                color: #0366d6;
+            }
+
+            .malta {
+                color: #a64029;
+            }
+
+            .research-field {
+                color: #0c6b3a;
+            }
+
+            .socials {
+                display: flex;
+                justify-content: center;
+                margin-top: 1.5rem;
+
+                a {
+                    all: unset;
+                }
+
+                .icons {
+                    margin-right: 1rem;
+                    cursor: pointer;
+
+                    &:hover {
+                        opacity: 0.9;
+                    }
+                }
+            }
         }
 
         .image {
