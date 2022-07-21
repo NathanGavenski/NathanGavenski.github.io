@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Welcome to my Github Page 👋
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+My name is Nathan Gavenski, and I'm from Brazil. Currently I'm a PhD student in [PUCRS University](https://www.pucrs.br/en/) (soon [King's College London](https://www.kcl.ac.uk/)). I have worked for the last 8 years as Scrum Master, QA automation and analyst, Front-end developer, researcher, and visiting professor. My main interests are all research involving agents, teaching, photography, traveling, and music. Don't be shy to contact me!
 
-## Available Scripts
+This page is located at: https://nathangavenski.github.io/
 
-In the project directory, you can run:
+---
 
-### `npm start`
+I've created this page with [Create-React-App](https://create-react-app.dev/), [Bootstrap](https://getbootstrap.com/), and [Gh-Pages](https://github.com/tschaub/gh-pages). Feel free to clone, fork, and share this repository.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+If you wish to use this repo, the [publications.js](https://github.com/NathanGavenski/NathanGavenski.github.io/blob/master/src/assets/publications.json) has all information regarding the Publications page. I did that so I could add new publications by just changing one file and not having to alter the HTML/JSX. However, I was too lazy to do the same for the Experiences page. This is on my ''todo'' list but could take some time. If you wish, feel free to implement and create a pull request 😅.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## The project is structured as follows:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+project
+│   README.md
+│   package.json (dependencies)    
+│
+└───src
+    │   App.js (main page)
+    │   index.js (you don't need to change that)
+    │
+    └───assets
+    |   │   avatar.jpg (picture from the home page)
+    |   │   publications.json (list of all publications)
+    |   │   experience.json (soon™)
+    |
+    └───components
+    |   |   Experience (for easier experience creation - Row for the Experiences page)
+    |   |   Navbar
+    |   |   Publication (for easier publication creation - Row for the Publications page)
+    |
+    └───pages
+    |   |   Experiences
+    |   |   Home
+    |   |   Publications
+    |
+    └───services
+    |   |   NavigationService.json (ReactContext to keep track where the user is)
+    |   |   PublicationsService.json (reads the json file)
+    |   |   ThemeService.json (ReactContext to keep track of light/dark mode)
+    |
+    └───variables
+        | colors.scss (SCSS variables)
 
-### `npm run build`
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Running locally
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+npm install && npm start
+```
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## TODO
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [ ] Save theme so the user doesn't has to change theme everytime it enters
+- [ ] Create a `experience.json`
