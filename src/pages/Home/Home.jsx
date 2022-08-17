@@ -24,8 +24,8 @@ function template() {
       <Row className="content">
         <Col className="text" lg={8}>
           <p>
-            I'm currently a PhD student at <a className="profile-link pucrs" href="https://www.kcl.ac.uk/" target="_blank" rel="noreferrer">King's College London</a> studying Computer Science. <br />
-            Currently, I'm a part of the <a className="malta" href="https://safeandtrustedai.org/">STAI</a> centre for Doctoral Training. <br />
+            I'm currently a Computer Science PhD student at <a className="profile-link uni" href="https://www.kcl.ac.uk/" target="_blank" rel="noreferrer">King's College London</a>. <br />
+            Currently, I'm a part of the <a className="lab" href="https://safeandtrustedai.org/" target="_blank" rel="noreferrer">STAI</a> centre for Doctoral Training. <br />
             My research areas are <span className="research-field">Imitation Learning</span> and <span className="research-field">Multi-agent Systems</span>. <br />
           </p>
 
