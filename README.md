@@ -44,7 +44,7 @@ project
     |   |   ThemeService.json (ReactContext to keep track of light/dark mode)
     |
     └───variables
-        | colors.scss (SCSS variables)
+        |   colors.scss (SCSS variables)
 
 ```
 
