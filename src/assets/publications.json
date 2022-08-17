@@ -1,6 +1,15 @@
 {
     "publications": [
         {
+            "title": "Artificial intelligence to predict the risk of mechanical ventilation in cases of severe COVID-19",
+            "authors": "de Godoy, Mariana F.; Chatkin, José M.; Rodrigues, Rosana; Forte, Gabriele C.; Marchiori, Edson; Gavenski, Nathan; Barros, Rodrigo C. and Hochhegger, Bruno.",
+            "conference": "Radiologia Brasileira",
+            "year": "RB 2022",
+            "bibtex": "",
+            "pdf": "",
+            "github": ""
+        },
+        {
             "title": "Efficient Counterfactual Debiasing for Visual Question Answering",
             "authors": "Kolling, Camila; More, Martin; Gavenski, Nathan; Pooch, Eduardo; Parraga, Otávio and Barros, Rodrigo C.",
             "conference": "In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision",

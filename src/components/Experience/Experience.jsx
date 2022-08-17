@@ -13,7 +13,6 @@ function template(title, year, extra) {
 
         <Col>
           <div className="title">
-
             <p className="position">{title}</p>
           </div>
           <div className="extra">{extra}</div>

@@ -59,6 +59,11 @@ function template() {
               <p className="divider" />
             </div>
             <Experience
+              title='Teia Labs'
+              year='2021-2022'
+              extra='Frontend Developer'
+            />
+            <Experience
               title='ADP'
               year='2018 - 2019'
               extra='Software Developer II'
@@ -82,7 +87,12 @@ function template() {
             </div>
             <Experience
               title='Ph.D.'
-              year='2021 - 2024'
+              year='2022-2026'
+              extra="Computer Science at King's College London"
+            />
+            <Experience
+              title='Ph.D.'
+              year='2021 - 2022 (Unfinished)'
               extra='Computer Science at Pontifícia Universidade Católica do Rio Grande do Sul'
             />
             <Experience
