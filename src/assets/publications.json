@@ -1,6 +1,15 @@
 {
     "publications": [
         {
+            "title": "How Resilient are Imitation Learning Methods to Sub-Optimal Experts?",
+            "authors": "Gavenski, Nathan; Monteiro Juarez; Medronha, Adilson and Barros, Rodrigo C.",
+            "conference": "Brazilian Conference on Intelligent Systems",
+            "year": "BRACIS 2022",
+            "bibtex": "@inproceedings{gavenski2022how,\n\t            author=\"Nathan Gavenski and Juarez Monteiro and Adilson Medronha and Rodrigo Barros\",\n\t            title=\"How Resilient are Imitation Learning Methods to Sub-Optimal Experts?\",\n\t            booktitle=\"BRACIS 2022 () \",\n\t            address=\"\",\n\t            days=\"28-1\",\n\t            month=\"nov\",\n\t            year=\"2022\",\n\t            abstract=\"Imitation Learning (IL) algorithms try to mimic expert behavior in order to be capable of performing specific tasks, but it remains unclear what those strategies could achieve when learning from sub-optimal data (faulty experts). Studying how Imitation Learning approaches learn when dealing with different degrees of quality from the observations can benefit tasks such as optimizing data collection, producing interpretable models, reducing bias when using sub-optimal experts, and more. Therefore, in this work we provide extensive experiments to verify how different Imitation Learning agents perform under various degrees of expert optimality. We experiment with four IL algorithms, three of them that learn self-supervisedly and one that uses the ground-truth labels (BC) in four different environments (tasks), and we compare them using optimal and sub-optimal experts. For assessing the performance of each agent, we compute two metrics: Performance and Average Episodic Reward. Our experiments show that IL approaches that learn self-supervisedly are relatively resilient to sub-optimal experts, which is not the case of the supervised approach. We also observe that sub-optimal experts are sometimes beneficial since they seem to act as a kind of regularization method, preventing models from data overfitting.\",\n\t            KEYWORDS=\"Neural Networks; Deep Learning\",\n\t            URL=\"http://XXXXX/225504.pdf\"\n\t        }",
+            "pdf": "",
+            "github": ""
+        },
+        {
             "title": "Artificial intelligence to predict the risk of mechanical ventilation in cases of severe COVID-19",
             "authors": "de Godoy, Mariana F.; Chatkin, José M.; Rodrigues, Rosana; Forte, Gabriele C.; Marchiori, Edson; Gavenski, Nathan; Barros, Rodrigo C. and Hochhegger, Bruno.",
             "conference": "Radiologia Brasileira",
