@@ -17,9 +17,9 @@ function template() {
               Experience
             </h1>
             <h2 className="subtitle">
-              Currently I'm working at{' '}
-              <a href='http://www.teialabs.com/' target='_blank' rel="noreferrer">Teia</a>{' '}
-              as a Front-end developer and at my PhD on Imitation Learning.
+              Currently, I'm working at{' '}
+              <a href='https://safeandtrustedai.org/' target='_blank' rel="noreferrer">Safe and Trust AI</a>{' '}
+              on my PhD in Imitation Learning and Multi-Agent Systems.
             </h2>
           </div>
         </Col>

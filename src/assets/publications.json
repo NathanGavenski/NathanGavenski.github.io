@@ -1,6 +1,15 @@
 {
     "publications": [
         {
+            "title": "Debiasing Methods for Fairer Neural Models in Vision and Language Research: A Survey",
+            "authors": "Parraga, Otávio; More, Martin D.; Oliveira, Christian M.; Gavenski, Nathan S.; Kupssinskü, Lucas S.; Medronha, Adilson; Moura, Luis V.; Simões, Gabriel S.; Barros, Rodrigo C.",
+            "conference": "ACM Computing Surveys - Special Issue on Trustworthy AI",
+            "year": "2022",
+            "bibtex": "@misc{https://doi.org/10.48550/arxiv.2211.05617,\n            doi = {10.48550/ARXIV.2211.05617},\n            url = {https://arxiv.org/abs/2211.05617},\n            author = {Parraga, Otávio and More, Martin D. and Oliveira, Christian M. and Gavenski, Nathan S. and Kupssinskü, Lucas S. and Medronha, Adilson and Moura, Luis V. and Simões, Gabriel S. and Barros, Rodrigo C.},\n            keywords = {Machine Learning (cs.LG), Artificial Intelligence (cs.AI), Computation and Language (cs.CL), Computer Vision and Pattern Recognition (cs.CV), Computers and Society (cs.CY), FOS: Computer and information sciences, FOS: Computer and information sciences},\n            title = {Debiasing Methods for Fairer Neural Models in Vision and Language Research: A Survey},\n            publisher = {arXiv},\n            year = {2022},\n            copyright = {Creative Commons Attribution 4.0 International}\n          }",
+            "pdf": "https://arxiv.org/pdf/2211.05617.pdf",
+            "github": ""
+        },
+        {
             "title": "How Resilient are Imitation Learning Methods to Sub-Optimal Experts?",
             "authors": "Gavenski, Nathan; Monteiro Juarez; Medronha, Adilson and Barros, Rodrigo C.",
             "conference": "Brazilian Conference on Intelligent Systems",
