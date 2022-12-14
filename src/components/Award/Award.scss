@@ -1,0 +1,18 @@
+.award {
+    margin-top: 1.5rem;
+
+    .title {
+        display: flex;
+        align-items: center;
+
+        .position,
+        .year {
+            min-width: fit-content;
+        }
+
+        .position {
+            font-weight: bolder;
+            margin-right: 0.5rem;
+        }
+    }
+}

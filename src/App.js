@@ -8,6 +8,7 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Publications from './pages/Publications';
 import Experiences from './pages/Experiences';
+import Awards from './pages/Awards/Awards';
 import { ThemeContext } from './services/ThemeService';
 import { NavigationContext } from './services/NavigationService';
 
@@ -63,6 +64,7 @@ class App extends React.Component {
               <Route path='/' element={<Home />} />
               <Route path='publications' element={<Publications />} />
               <Route path='experience' element={<Experiences />} />
+              <Route path='awards' element={<Awards />} />
             </Routes>
           </Container>
         </ThemeContext.Provider>

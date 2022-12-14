@@ -40,6 +40,13 @@ function template(checked, setChecked) {
                     >
                       Experience
                     </Link>
+                    <Link
+                      className={"nav-link nav " + (menu === "awards" ? 'active' : '')}
+                      to="awards"
+                      onClick={(e) => toggleMenu(e)}
+                    >
+                      Awards and Grants
+                    </Link>
                   </Nav>
                 </Navbar.Collapse>
                 <ToggleButton
