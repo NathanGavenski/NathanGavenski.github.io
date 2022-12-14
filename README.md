@@ -1,6 +1,6 @@
 # Welcome to my Github Page 👋
 
-My name is Nathan Gavenski, and I'm from Brazil. Currently I'm a PhD student in [PUCRS University](https://www.pucrs.br/en/) (soon [King's College London](https://www.kcl.ac.uk/)). I have worked for the last 8 years as Scrum Master, QA automation and analyst, Front-end developer, researcher, and visiting professor. My main interests are all research involving agents, teaching, photography, traveling, and music. Don't be shy to contact me!
+My name is Nathan Gavenski, and I'm from Brazil. Currently I'm a PhD student in [King's College London](https://www.kcl.ac.uk/). I have worked for the last 8 years as Scrum Master, QA automation and analyst, Front-end developer, researcher, and visiting professor. My main interests are all research involving agents, teaching, photography, traveling, and music. Don't be shy to contact me!
 
 This page is located at: https://nathangavenski.github.io/
 
