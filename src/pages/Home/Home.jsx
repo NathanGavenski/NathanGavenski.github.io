@@ -24,14 +24,14 @@ function template() {
       <Row className="content">
         <Col className="text" lg={8}>
           <p>
-            I'm currently a Computer Science PhD student at <a className="profile-link uni" href="https://www.kcl.ac.uk/" target="_blank" rel="noreferrer">King's College London</a>. <br />
+            I'm a Computer Science PhD student at <a className="profile-link uni" href="https://www.kcl.ac.uk/" target="_blank" rel="noreferrer">King's College London</a>. <br />
             Currently, I'm a part of the <a className="lab" href="https://safeandtrustedai.org/" target="_blank" rel="noreferrer">STAI</a> centre for Doctoral Training. <br />
             My research areas are <span className="research-field">Imitation Learning</span> and <span className="research-field">Multi-agent Systems</span>. <br />
           </p>
 
           <p>
-            Before, I've worked at ADP Brazil Labs as a Software Developer. <br />
-            I also previously was a Quality Analyst at IBM. <br />
+            Before working with research, I've worked at ADP as a Software Developer. <br />
+            I've also did some work as a Quality Analyst at IBM. <br />
           </p>
           <p>
             I am a fan of photography, technology, traveling, and music. <br />
