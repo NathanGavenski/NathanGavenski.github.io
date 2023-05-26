@@ -33,7 +33,7 @@ function template() {
             </div>
             <Experience
               title='Deep Learning II: Neural Network for Natural Language Processing'
-              year='2021 - Present'
+              year='2021 - 2022'
               extra='Visting Professor at Pontifícia Universidade Católica do Rio Grande do Sul'
             />
             <Experience

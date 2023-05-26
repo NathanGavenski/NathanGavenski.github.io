@@ -4,8 +4,8 @@
             "authors": "Monteiro, Juarez; Gavenski, Nathan; Meneguzzi, Felipe; and Barros, Rodrigo C.",
             "conference": "In Proceedings of the 35rd International Joint Conference on Neural Networks",
             "year": "IJCNN 2023",
-            "bibtex": "",
-            "pdf": "",
+            "bibtex": "@misc{monteiro2023selfsupervised,\n\ttitle={Self-Supervised Adversarial Imitation Learning},\n\tauthor={Juarez Monteiro and Nathan Gavenski and Felipe Meneguzzi and Rodrigo C. Barros},\n\tyear={2023},\n\teprint={2304.10914},\n\tarchivePrefix={arXiv},\nprimaryClass={cs.LG}\n}",
+            "pdf": "https://arxiv.org/pdf/2304.10914.pdf",
             "github": "https://github.com/NathanGavenski/SAIL"
         },
         {

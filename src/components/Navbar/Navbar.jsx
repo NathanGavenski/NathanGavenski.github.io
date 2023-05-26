@@ -45,7 +45,7 @@ function template(checked, setChecked) {
                       to="awards"
                       onClick={(e) => toggleMenu(e)}
                     >
-                      Awards and Grants
+                      Awards, Grants and Projects
                     </Link>
                   </Nav>
                 </Navbar.Collapse>

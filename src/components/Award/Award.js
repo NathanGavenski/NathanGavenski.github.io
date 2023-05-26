@@ -9,6 +9,7 @@ class Award extends React.Component {
       title: props.title,
       year: props.year,
       extra: props.extra,
+      misc: props.misc
     }
   }
 
@@ -17,6 +18,7 @@ class Award extends React.Component {
       this.state.title,
       this.state.year,
       this.state.extra,
+      this.state.misc
     );
   }
 }

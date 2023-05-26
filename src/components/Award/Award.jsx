@@ -1,14 +1,18 @@
 import "./Award.scss";
 import React from "react";
 
+import ReactHtmlParser from 'html-react-parser';
 import { Col, Row } from 'react-bootstrap';
 
-function template(title, year, extra) {
+function template(title, year, extra, misc) {
   return (
     <div className="award">
       <Row>
         <Col xl={1}>
-          <p className="year">{year}</p>
+          {
+            year &&
+            <p className="year">{year}</p>
+          }
         </Col>
 
         <Col>
@@ -16,6 +20,10 @@ function template(title, year, extra) {
             <p className="position">{title}</p>
           </div>
           <div className="extra">{extra}</div>
+          {
+            misc &&
+            <div className="misc">{ReactHtmlParser(misc)}</div>
+          }
         </Col>
       </Row>
     </div>
