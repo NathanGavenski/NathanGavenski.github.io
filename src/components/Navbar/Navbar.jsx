@@ -60,6 +60,24 @@ function template(checked, setChecked) {
                           <span role="img" aria-label="moon">🌚</span>
                       }
                     </ToggleButton>
+                    <ToggleButton
+                      id="toggle-increase"
+                      type="checkbox"
+                      variant={theme}
+                      checked={checked}
+                      onChange={() => setChecked(toggleTheme)}
+                    >
+                      A
+                    </ToggleButton>
+                    <ToggleButton
+                      id="toggle-deacrease"
+                      type="checkbox"
+                      variant={theme}
+                      checked={checked}
+                      onChange={() => setChecked(toggleTheme)}
+                    >
+                      a
+                    </ToggleButton>
                   </Nav>
                 </Navbar.Collapse>
               </Container>
