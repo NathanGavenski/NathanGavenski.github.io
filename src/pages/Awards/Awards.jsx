@@ -28,6 +28,27 @@ function template() {
                             <p className="section-title">Projects</p>
                             <p className="divider" />
                         </div>
+                        <Award 
+                            title="Imitation Learning Datasets"
+                            year="Active"
+                            extra="A project for creating imitation learning datasets based on HuggingFace weights and using multithreads for performance."
+                            misc="
+                            <a
+                                className='link'
+                                href='https://github.com/NathanGavenski/IL-Datasets'
+                                target='_blank' rel='noreferrer'
+                            >
+                                GitHub page
+                            </a>
+                            <a
+                                className='link'
+                                href='https://pypi.org/project/il-datasets/'
+                                target='_blank' rel='noreferrer'
+                            >
+                                PyPi page
+                            </a>
+                            "
+                        />
                         <Award
                             title="Exhibition: Can you help me?"
                             year="2023"
@@ -39,6 +60,13 @@ function template() {
                                     target='_blank' rel='noreferrer'
                                 >
                                     Event page
+                                </a>
+                                <a
+                                    className='link'
+                                    href='https://safeandtrustedai.org/stai-cdt-at-kings-festival-of-ai-can-you-help-me/'
+                                    target='_blank' rel='noreferrer'
+                                >
+                                    More about it
                                 </a>
                                 <a 
                                     className='link' 
@@ -57,9 +85,9 @@ function template() {
                             <p className="divider" />
                         </div>
                         <Award
-                            title="Award for Inclusion Research Award"
+                            title="Google Award for Inclusion Research Award"
                             year="2022"
-                            extra="Google Research"
+                            extra="With Prof. Rodrigo C. Barros"                       
                         />
                         <Award
                             title="Summa cum laude - Master's Dissertation"

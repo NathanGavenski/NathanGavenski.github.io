@@ -5,18 +5,24 @@ class Experience extends React.Component {
   constructor(props) {
     super(props);
 
+    const { title, year, extra, name, supervisor } = props;
     this.state = {
-      title: props.title,
-      year: props.year,
-      extra: props.extra,
+      title,
+      year,
+      extra,
+      name,
+      supervisor,
     }
   }
 
   render() {
+    const { title, year, extra, name, supervisor } = this.state;
     return template(
-      this.state.title,
-      this.state.year,
-      this.state.extra,
+      title,
+      year,
+      extra,
+      name,
+      supervisor,
     );
   }
 }

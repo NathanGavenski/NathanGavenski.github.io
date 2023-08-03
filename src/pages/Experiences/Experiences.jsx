@@ -26,31 +26,111 @@ function template() {
       </Row>
       <Row className="list">
         <Container>
+          <div className="education">
+            <div className="section-header">
+              <p className="section-title">Education</p>
+              <p className="divider" />
+            </div>
+            <Experience
+              title='Ph.D. in Computer Science'
+              year='2022-2026'
+              supervisor="Prof. Michael Luck and Prof. Odinaldo Rodrigues"
+              extra="at King's College London"
+            />
+            {/* <Experience
+              title='Ph.D. in Computer Science'
+              year='2021 - 2022 (Unfinished)'
+              extra='at Pontifícia Universidade Católica do Rio Grande do Sul'
+            /> */}
+            <Experience
+              title='MSc in Computer Science'
+              year='2019 - 2020'
+              name="Dissertation title: 'Self-Supervised Imitation Learning from Observation'"
+              supervisor="Prof. Rodrigo C. Barros"
+              extra="at Pontifícia Universidade Católica do Rio Grande do Sul"
+            />
+            <Experience
+              title='Bachelor in Information System'
+              year='2015 - 2018'
+              name="Dissertation title: Governmental Blockchain"
+              supervisor="Prof. Dilnei Venturini"
+              extra='at Pontifícia Universidade Católica do Rio Grande do Sul'
+            />
+          </div>
+
           <div className="teaching">
             <div className="section-header">
               <p className="section-title">Teaching</p>
               <p className="divider" />
             </div>
             <Experience
+              title='Optimization methods'
+              year='2023'
+              name="Teaching Assistant for Prof. Tomasz Radzik and Dr Yali Du"
+              extra="at King's College London"
+            />
+            <Experience
               title='Deep Learning II: Neural Network for Natural Language Processing'
               year='2021 - 2022'
-              extra='Visting Professor at Pontifícia Universidade Católica do Rio Grande do Sul'
+              name='Visting Professor'
+              extra="at Pontifícia Universidade Católica do Rio Grande do Sul"
             />
             <Experience
               title='Business Intelligence'
               year='Spring 2020'
-              extra='Teaching Assistant, with Prof. Barros, Rodrigo C. at Pontifícia Universidade Católica do Rio Grande do Sul'
+              name="Teaching Assistant for Prof. Rodrigo C. Barros"
+              supervisor=""
+              extra="at Pontifícia Universidade Católica do Rio Grande do Sul"
             />
             <Experience
               title='Artificial Intelligence Fundamentals'
               year='Summer 2020'
-              extra='Teaching Assistant, with Prof. Barros, Rodrigo C. and Prof Meneguzzi, Felipe at Pontifícia Universidade Católica do Rio Grande do Sul'
+              name="Teaching Assistant for Prof. Rodrigo C. Barros and Prof. Felipe Meneguzzi"
+              extra='at Pontifícia Universidade Católica do Rio Grande do Sul'
             />
             <Experience
               title='Applied Artificial Intelligence'
               year=''
-              extra='Teaching Assistant, with Prof. Barros, Rodrigo C. and Prof Meneguzzi, Felipe at Pontifícia Universidade Católica do Rio Grande do Sul'
+              name="Teaching Assistant for Prof. Rodrigo C. Barros and Prof Felipe Meneguzzi"
+              extra='at Pontifícia Universidade Católica do Rio Grande do Sul'
             />
+          </div>
+
+          <div className="academic">
+            <div className="section-header">
+              <p className="section-title">Academic</p>
+              <p className="divider" />
+            </div>
+            <div className="journal">
+              <p className="section-divider">Reviewer for Journals</p>
+              <Experience 
+                title="IEEE Transactions on Neural Network and Learning Systems (TNNLS)"
+                year="2022 - Present"
+              />
+            </div>
+            <div className="conferences">
+              <p className="section-divider">Reviewer for Conferences</p>
+              <Experience 
+                title="The International Joint Conference on Neural Networks (IJCNN)"
+                year="2021-2023"
+              />
+              <Experience 
+                title="IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)"
+                year="2022-2023"
+              />
+              <Experience 
+                title="The British Machine Vision Conference (BMVC)"
+                year="2022-2023"
+              />
+              <Experience 
+                title="International Joint Conference On Artificial Intelligence (IJCAI)"
+                year="2023"
+              />
+              <Experience 
+                title="IEEE Conference on Artificial Intelligence (IEEE CAI)"
+                year="2023"
+              />              
+            </div>
           </div>
 
           <div className="industry">
@@ -64,7 +144,7 @@ function template() {
               extra='Frontend Developer'
             />
             <Experience
-              title='ADP'
+              title='ADP Brazil Labs'
               year='2018 - 2019'
               extra='Software Developer II'
             />
@@ -77,33 +157,6 @@ function template() {
               title='Dell'
               year='2012 - 2013'
               extra='Intern'
-            />
-          </div>
-
-          <div className="education">
-            <div className="section-header">
-              <p className="section-title">Education</p>
-              <p className="divider" />
-            </div>
-            <Experience
-              title='Ph.D.'
-              year='2022-2026'
-              extra="Computer Science at King's College London"
-            />
-            <Experience
-              title='Ph.D.'
-              year='2021 - 2022 (Unfinished)'
-              extra='Computer Science at Pontifícia Universidade Católica do Rio Grande do Sul'
-            />
-            <Experience
-              title='MsC'
-              year='2019 - 2020'
-              extra='Self-Supervised Imitation Learning from Observation, Computer Science at Pontifícia Universidade Católica do Rio Grande do Sul'
-            />
-            <Experience
-              title='Bachelor'
-              year='2015 - 2018'
-              extra='Governmental Blockchain, Information System at Pontifícia Universidade Católica do Rio Grande do Sul'
             />
           </div>
         </Container>

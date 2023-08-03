@@ -30,6 +30,12 @@
             align-items: center;
         }
 
+        .section-divider {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-top: 0.5rem;
+        }
+
         .divider {
             background-color: unset;
             border-top: 2px solid grey;
@@ -48,7 +54,7 @@
         }
 
         .industry {
-            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
         }
 
         .education {

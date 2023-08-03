@@ -18,7 +18,7 @@ function template(checked, setChecked) {
                 <Navbar.Brand className="brand" href="/">Nathan Gavenski</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                  <Nav className="justify-content-end nav">
+                  <Nav className="justify-content nav">
                     <Link
                       className={"nav-link link " + (menu === "home" ? 'active' : '')}
                       to="/"
@@ -47,21 +47,21 @@ function template(checked, setChecked) {
                     >
                       Awards, Grants and Projects
                     </Link>
+                    <ToggleButton
+                      id="toggle-check"
+                      type="checkbox"
+                      variant={theme}
+                      checked={checked}
+                      onChange={() => setChecked(toggleTheme)}
+                    >
+                      {
+                        theme === "dark" ?
+                          <span role="img" aria-label="sun">🌞</span> :
+                          <span role="img" aria-label="moon">🌚</span>
+                      }
+                    </ToggleButton>
                   </Nav>
                 </Navbar.Collapse>
-                <ToggleButton
-                  id="toggle-check"
-                  type="checkbox"
-                  variant={theme}
-                  checked={checked}
-                  onChange={() => setChecked(toggleTheme)}
-                >
-                  {
-                    theme === "dark" ?
-                      <span role="img" aria-label="sun">🌞</span> :
-                      <span role="img" aria-label="moon">🌚</span>
-                  }
-                </ToggleButton>
               </Container>
             </Navbar>
           }

@@ -16,20 +16,29 @@ import { NavigationContext } from './services/NavigationService';
 class App extends React.Component {
   constructor(props) {
     super(props);
+
+    let theme = localStorage.getItem('theme')
+    theme = theme === null ? 'light' : theme;
+
     this.toggleTheme = () => {
-      this.setState((prevState) => ({
-        theme: prevState.theme === 'dark' ? 'light' : 'dark'
+      const newTheme = this.state.theme === 'dark' ? 'light' : 'dark'
+      localStorage.setItem('theme', newTheme)
+      this.setState(() => ({
+        theme: newTheme
       }));
     }
 
     this.toggleMenu = (e) => {
+      const words = e.target.href.split("/");
+      let menu = words[words.length - 1];
+      if(menu === "") menu = "home";
       this.setState(({
-        menu: e.target.text.toLowerCase()
+        menu: menu.toLowerCase()
       }));
     }
 
     this.state = {
-      theme: "light",
+      theme,
       toggleTheme: this.toggleTheme,
 
       menu: "home",

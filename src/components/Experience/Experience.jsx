@@ -3,7 +3,7 @@ import React from "react";
 
 import { Col, Row } from 'react-bootstrap';
 
-function template(title, year, extra) {
+function template(title, year, extra, name, supervisor) {
   return (
     <div className="experience">
       <Row>
@@ -15,7 +15,18 @@ function template(title, year, extra) {
           <div className="title">
             <p className="position">{title}</p>
           </div>
-          <div className="extra">{extra}</div>
+          {
+            !!supervisor &&
+            <div className="supervisor">{supervisor}</div>
+          }
+          {
+            name &&
+            <div className="name">{name}</div>
+          }
+          {
+            extra &&
+            <div className="extra">{extra}</div>
+          }
         </Col>
       </Row>
     </div>
