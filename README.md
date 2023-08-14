@@ -60,5 +60,6 @@ npm install && npm start
 
 ## TODO
 
-- [ ] Save theme so the user doesn't has to change theme everytime it enters
+- [X] Save theme so the user doesn't has to change theme everytime it enters
 - [ ] Create a `experience.json`
+- [ ] Create a `FontSizeService` so the user can control font size
