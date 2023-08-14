@@ -13,7 +13,10 @@
       "setting": {
         "disableStorageReset": true,
         "maxWaitForLoad": 90000,
-        "throttlingMethod": "devtools"
+        "throttlingMethod": "devtools",
+        "throttling": {
+          "cpuSlowdownMultiplier": 2.3
+        }
       },
       "url": [
         "http://localhost:3000/",
