@@ -1,4 +1,4 @@
-name: Build project and run Lighthouse CI
+name: Build project, run Lighthouse CI and deploy gh-pages
 on: [push]
 jobs:
   lhci:
@@ -16,4 +16,9 @@ jobs:
       - name: run Lighthouse CI
         run: |
           npm install -g @lhci/cli
-          lhci autorun --upload.target=temporary-public-storage || echo "LHCI failed!"
+          lhci autorun --upload.target=temporary-public-storage
+      - name: Deploy to gh-pages
+        run: |
+          npm install -g gh-pages
+          npm run build
+          gh-pages -d build
