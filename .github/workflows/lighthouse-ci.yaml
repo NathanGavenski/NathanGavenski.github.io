@@ -25,7 +25,9 @@ jobs:
           npm install -g @lhci/cli
           lhci autorun --upload.target=temporary-public-storage
 
-  deploy:
+  build:
+    name: Build to GitHub Pages
+    needs: lhci
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -42,6 +44,15 @@ jobs:
       - run: npm ci
       - run: npm run build
 
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+    steps:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'
