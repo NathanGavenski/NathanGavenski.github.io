@@ -24,6 +24,8 @@ jobs:
         run: |
           npm install -g @lhci/cli
           lhci autorun --upload.target=temporary-public-storage
+        env:
+          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
 
   build:
     name: Build to GitHub Pages
