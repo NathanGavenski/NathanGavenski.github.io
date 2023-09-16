@@ -50,6 +50,27 @@ function template() {
                             "
                         />
                         <Award
+                            title="Python watcher"
+                            year="Active"
+                            extra="This is a watcher to rerun scripts, execute tests and run lint after you change a directory or a file." 
+                            misc="
+                            <a
+                                className='link'
+                                href='https://github.com/NathanGavenski/python-watcher'
+                                target='_blank' rel='noreferrer'
+                            >
+                                GitHub page
+                            </a>
+                            <a
+                                className='link'
+                                href='https://pypi.org/project/watcher-cli/'
+                                target='_blank' rel='noreferrer'
+                            >
+                                PyPi page
+                            </a>
+                            "
+                        />
+                        <Award
                             title="Exhibition: Can you help me?"
                             year="2023"
                             extra="The King's Festival of Artificial Intelligence"
