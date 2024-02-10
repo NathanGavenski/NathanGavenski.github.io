@@ -24,6 +24,7 @@ function template() {
           </div>
         </Col>
       </Row>
+
       <Row className="list">
         <Container>
           <div className="education">
@@ -34,14 +35,9 @@ function template() {
             <Experience
               title='Ph.D. in Computer Science'
               year='2022-2026'
-              supervisor="Prof. Michael Luck and Prof. Odinaldo Rodrigues"
+              supervisor="Prof. Michael Luck and Dr. Odinaldo Rodrigues"
               extra="at King's College London"
             />
-            {/* <Experience
-              title='Ph.D. in Computer Science'
-              year='2021 - 2022 (Unfinished)'
-              extra='at Pontifícia Universidade Católica do Rio Grande do Sul'
-            /> */}
             <Experience
               title='MSc in Computer Science'
               year='2019 - 2020'
@@ -63,37 +59,55 @@ function template() {
               <p className="section-title">Teaching</p>
               <p className="divider" />
             </div>
-            <Experience
-              title='Optimization methods'
-              year='2023'
-              name="Teaching Assistant for Prof. Tomasz Radzik and Dr Yali Du"
-              extra="at King's College London"
-            />
-            <Experience
-              title='Deep Learning II: Neural Network for Natural Language Processing'
-              year='2021 - 2022'
-              name='Visting Professor'
-              extra="at Pontifícia Universidade Católica do Rio Grande do Sul"
-            />
-            <Experience
-              title='Business Intelligence'
-              year='Spring 2020'
-              name="Teaching Assistant for Prof. Rodrigo C. Barros"
-              supervisor=""
-              extra="at Pontifícia Universidade Católica do Rio Grande do Sul"
-            />
-            <Experience
-              title='Artificial Intelligence Fundamentals'
-              year='Summer 2020'
-              name="Teaching Assistant for Prof. Rodrigo C. Barros and Prof. Felipe Meneguzzi"
-              extra='at Pontifícia Universidade Católica do Rio Grande do Sul'
-            />
-            <Experience
-              title='Applied Artificial Intelligence'
-              year=''
-              name="Teaching Assistant for Prof. Rodrigo C. Barros and Prof Felipe Meneguzzi"
-              extra='at Pontifícia Universidade Católica do Rio Grande do Sul'
-            />
+            <div className="lecturer">
+                <p className="section-divider">Lecturer</p>
+                <Experience
+                  title='Deep Learning II: Neural Network for Natural Language Processing'
+                  year='2021 - Present'
+                  name='Visting Lecturer'
+                  extra="at Pontifícia Universidade Católica do Rio Grande do Sul"
+                />
+            </div>
+            <div className="teaching-assistant">
+                <p className="section-divider">Teaching Assistant</p>
+                <Experience
+                  title='Elementary Logic With Applications'
+                  year='2024'
+                  name="Teaching Assistant for Dr. Odinaldo Rodrigues and Dr. Christopher Hampson"
+                  extra="at King's College London"
+                />
+                <Experience
+                  title='Logic and Knowledge Representation'
+                  year=''
+                  name="Teaching Assistant for Dr. Odinaldo Rodrigues and Dr. Christopher Hampson"
+                  extra="at King's College London"
+                />
+                <Experience
+                  title='Optimization methods'
+                  year='2023'
+                  name="Teaching Assistant for Prof. Tomasz Radzik and Dr. Yali Du"
+                  extra="at King's College London"
+                />
+                <Experience
+                  title='Business Intelligence'
+                  year='2020'
+                  name="Teaching Assistant for Prof. Rodrigo C. Barros"
+                  supervisor=""
+                  extra="at Pontifícia Universidade Católica do Rio Grande do Sul"
+                />
+                <Experience
+                  title='Artificial Intelligence Fundamentals'
+                  year=''
+                  name="Teaching Assistant for Prof. Rodrigo C. Barros and Prof. Felipe Meneguzzi"
+                  extra='at Pontifícia Universidade Católica do Rio Grande do Sul'
+                />
+                <Experience
+                  title='Applied Artificial Intelligence'
+                  year=''
+                  name="Teaching Assistant for Prof. Rodrigo C. Barros and Prof Felipe Meneguzzi"
+                  extra='at Pontifícia Universidade Católica do Rio Grande do Sul'
+                />
+              </div>
           </div>
 
           <div className="academic">

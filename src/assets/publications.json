@@ -1,12 +1,23 @@
 {
     "publications": [{
+            "title": "Imitation Learning Datasets: A Toolkit For Creating Datasets, Training Agents and Benchmarking \t",
+            "authors": "Gavenski, Nathan; Luck, Michael; and Rodrigues, Odinaldo",
+            "conference": "In Proceedings of the 23rd International Conference on Autonomous Agents and Multi-Agent Systems",
+            "year": "AAMAS 2024",
+            "bibtex": "",
+            "pdf": "",
+            "github": "https://github.com/NathanGavenski/IL-Datasets",
+            "tags": ["imitation learning"]
+        },
+        {
             "title": "Self-Supervised Adversarial Imitation Learning \t",
             "authors": "Monteiro, Juarez; Gavenski, Nathan; Meneguzzi, Felipe; and Barros, Rodrigo C.",
             "conference": "In Proceedings of the 35rd International Joint Conference on Neural Networks",
             "year": "IJCNN 2023",
             "bibtex": "@misc{monteiro2023selfsupervised,\n\ttitle={Self-Supervised Adversarial Imitation Learning},\n\tauthor={Juarez Monteiro and Nathan Gavenski and Felipe Meneguzzi and Rodrigo C. Barros},\n\tyear={2023},\n\teprint={2304.10914},\n\tarchivePrefix={arXiv},\nprimaryClass={cs.LG}\n}",
             "pdf": "https://arxiv.org/pdf/2304.10914.pdf",
-            "github": "https://github.com/NathanGavenski/SAIL"
+            "github": "https://github.com/NathanGavenski/SAIL",
+            "tags": ["imitation learning"]
         },
         {
             "title": "Debiasing Methods for Fairer Neural Models in Vision and Language Research: A Survey",
