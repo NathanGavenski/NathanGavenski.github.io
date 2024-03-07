@@ -5,6 +5,7 @@ import { Container } from 'react-bootstrap';
 import { Routes, Route } from 'react-router-dom';
 
 import Navbar from './components/Navbar';
+import Redirect from './components/Redirect/Redirect';
 import Home from './pages/Home';
 import Publications from './pages/Publications';
 import Experiences from './pages/Experiences';
@@ -74,6 +75,22 @@ class App extends React.Component {
               <Route path='publications' element={<Publications />} />
               <Route path='experience' element={<Experiences />} />
               <Route path='awards' element={<Awards />} />
+              <Route 
+                path='il-datasets-data'
+                element={
+                  <Redirect
+                    loc='https://huggingface.co/collections/NathanGavenski/imitation-learning-datasets-6542982072defaf65937432d'
+                  />
+                } 
+              />
+              <Route 
+                path='il-datasets-video'
+                element={
+                  <Redirect
+                    loc='https://youtu.be/-6tT29QOJ-k'
+                  />
+                } 
+              />
             </Routes>
           </Container>
         </ThemeContext.Provider>

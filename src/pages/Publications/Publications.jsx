@@ -1,11 +1,13 @@
 import "./Publications.scss";
 import React from "react";
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSearch, faTimes } from '@fortawesome/free-solid-svg-icons';
 import { Row, Col, Container } from 'react-bootstrap';
 
 import Publication from '../../components/Publication';
 
-function template(publications) {
+function template(publications, sortBy, filterPublications, filter) {
   return (
     <div className="publications">
       <Row className="greetings">
@@ -22,6 +24,23 @@ function template(publications) {
             </h2>
           </div>
         </Col>
+        <p className='divider' />
+      </Row>
+      <Row>
+        <div className='form-floating'>
+            <input
+              id='searhInput'
+              type='text'
+              className='form-control' 
+              placeholder='Seach'
+              aria-label='Search box'
+              ref={filter}
+              onKeyUp={() => filterPublications()}
+            />
+           <label id='searchPlaceholder' for='searchInput'>
+             <FontAwesomeIcon id='searchIcon' icon={faSearch} /> Search
+           </label>
+        </div>
       </Row>
       <Row className="list">
         <Container>
@@ -36,4 +55,4 @@ function template(publications) {
   );
 };
 
-export default template;
+export default template

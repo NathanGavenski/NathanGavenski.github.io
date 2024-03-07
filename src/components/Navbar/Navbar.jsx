@@ -47,6 +47,14 @@ function template(checked, setChecked) {
                     >
                       Awards, Grants and Projects
                     </Link>
+                    <Link
+                      className={"nav-link nav"}
+                      target="_blank"
+                      rel="noreferrer"
+                      to="https://github.com/NathanGavenski/NathanGavenski.github.io/blob/master/src/assets/CV.pdf"
+                    >
+                      CV
+                    </Link>
                     <ToggleButton
                       id="toggle-check"
                       type="checkbox"
