@@ -1,11 +1,21 @@
 {
     "publications": [{
+            "title": "Imitation Learning: A Survey of Learning Methods, Environments and Metrics",
+            "authors": "Gavenski, Nathan; Rodrigues, Odinaldo; and Luck, Michael",
+            "conference": "Under review",
+            "year": "2024",
+            "bibtex": "",
+            "pdf": "https://arxiv.org/abs/2404.19456",
+            "github": "",
+            "tags": ["imitation learning"]
+        },
+        {
             "title": "Imitation Learning Datasets: A Toolkit For Creating Datasets, Training Agents and Benchmarking \t",
             "authors": "Gavenski, Nathan; Luck, Michael; and Rodrigues, Odinaldo",
             "conference": "In Proceedings of the 23rd International Conference on Autonomous Agents and Multi-Agent Systems",
             "year": "AAMAS 2024",
             "bibtex": "",
-            "pdf": "",
+            "pdf": "https://arxiv.org/pdf/2403.00550",
             "github": "https://github.com/NathanGavenski/IL-Datasets",
             "tags": ["imitation learning"]
         },
