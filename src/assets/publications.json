@@ -4,7 +4,7 @@
             "authors": "Gavenski, Nathan; Rodrigues, Odinaldo; and Luck, Michael",
             "conference": "Under review",
             "year": "2024",
-            "bibtex": "",
+            "bibtex": "@article{gavenski2024imitation,\n  title={Imitation Learning: A Survey of Learning Methods, Environments and Metrics},\n  author={Gavenski, Nathan and Rodrigues, Odinaldo and Luck, Michael},\n  journal={arXiv preprint arXiv:2404.19456},\n  year={2024}\n}",
             "pdf": "https://arxiv.org/abs/2404.19456",
             "github": "",
             "tags": ["imitation learning"]
@@ -14,13 +14,13 @@
             "authors": "Gavenski, Nathan; Luck, Michael; and Rodrigues, Odinaldo",
             "conference": "In Proceedings of the 23rd International Conference on Autonomous Agents and Multi-Agent Systems",
             "year": "AAMAS 2024",
-            "bibtex": "",
-            "pdf": "https://arxiv.org/pdf/2403.00550",
-            "github": "https://github.com/NathanGavenski/IL-Datasets",
+            "bibtex": "@inproceedings{gavenski2024ildatasets,\n\tauthor = {Gavenski, Nathan and Luck, Michael and Rodrigues, Odinaldo},\n\ttitle = {Imitation Learning Datasets: A Toolkit For Creating Datasets, Training Agents and Benchmarking},\n\tyear = {2024},\n\tisbn = {9798400704864},\n\tpublisher = {International Foundation for Autonomous Agents and Multiagent Systems},\n\taddress = {Richland, SC},\n\tabstract = {Imitation learning field requires expert data to train agents in a task. Most often, this learning approach suffers from the absence of available data, which results in techniques being tested on its dataset. Creating datasets is a cumbersome process requiring researchers to train expert agents from scratch, record their interactions and test each benchmark method with newly created data. Moreover, creating new datasets for each new technique results in a lack of consistency in the evaluation process since each dataset can drastically vary in state and action distribution. In response, this work aims to address these issues by creating Imitation Learning Datasets, a toolkit that allows for: (i) curated expert policies with multithreaded support for faster dataset creation; (ii) readily available datasets and techniques with precise measurements; and (iii) sharing implementations of common imitation learning techniques. Demonstration link: https://nathangavenski.github.io/#/il-datasets-video},\n\tbooktitle = {Proceedings of the 23rd International Conference on Autonomous Agents and Multiagent Systems},\n\tpages = {2800–2802},\n\tnumpages = {3},\n\tkeywords = {benchmarking, dataset, imitation learning},\n\tlocation = {<conf-loc>, <city>Auckland</city>, <country>New Zealand</country>, </conf-loc>},\n\tseries = {AAMAS '24}\n}",
+            "pdf": "https://dl.acm.org/doi/10.5555/3635637.3663292",
+            "github": "https://github.com/NathanGavenski/IL-Datasets/tree/main",
             "tags": ["imitation learning"]
         },
         {
-            "title": "Self-Supervised Adversarial Imitation Learning \t",
+            "title": "Self-Supervised Adversarial Imitation Learning",
             "authors": "Monteiro, Juarez; Gavenski, Nathan; Meneguzzi, Felipe; and Barros, Rodrigo C.",
             "conference": "In Proceedings of the 35rd International Joint Conference on Neural Networks",
             "year": "IJCNN 2023",

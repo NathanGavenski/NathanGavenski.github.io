@@ -71,6 +71,20 @@ function template() {
                             "
                         />
                         <Award
+                            title="Exhibition: Super Mario Bros: The Turing Quest"
+                            year="2024"
+                            extra="The King's Festival of Artificial Intelligence"
+                            misc="
+                                <a 
+                                    className='link' 
+                                    href='https://www.kcl.ac.uk/events/super-mario-bros-the-turing-quest' 
+                                    target='_blank' rel='noreferrer'
+                                >
+                                    Event page
+                                </a>
+                            "
+                        />
+                        <Award
                             title="Exhibition: Can you help me?"
                             year="2023"
                             extra="The King's Festival of Artificial Intelligence"
