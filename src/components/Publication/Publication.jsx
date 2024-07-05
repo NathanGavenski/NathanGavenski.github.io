@@ -8,6 +8,7 @@ function template(title, authors, conference, year, bibtex, pdf, github, copy, c
     <div className="publication">
       <div className="text">
         <span className="title">{title}</span>;
+        <br />
         <span className="authors">{' '}{authors}</span>
         <br />
         <span className="conference">{' '}{conference}</span>
