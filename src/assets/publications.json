@@ -4,8 +4,8 @@
             "authors": "Gavenski, Nathan; Monteiro, Juarez; Meneguzzi, Felipe; Luck, Michael; and Rodrigues, Odinaldo",
             "conference": "In Proceedings of the 27th European Conference on Artificial Intelligence",
             "year": "ECAI 2024",
-            "bibtex": "@incollection{gavenski2024explorative,\n\ttitle={Explorative Imitation Learning: A Path Signature Approach for Continuous Environments},\n\tauthor={Gavenski, Nathan and Monteiro, Juarez and Meneguzzi, Felipe and Luck, Michael and Rodrigues, Odinaldo},\n\tbooktitle={ECAI 2024},\n\tpages={}\n\tyear={2024},\n\tpublisher={IOS Press}\n}",
-            "pdf": "",
+            "bibtex": "@incollection{gavenski2024explorative,\n\ttitle={Explorative Imitation Learning: A Path Signature Approach for Continuous Environments},\n\tauthor={Gavenski, Nathan and Monteiro, Juarez and Meneguzzi, Felipe and Luck, Michael and Rodrigues, Odinaldo},\n\tbooktitle={ECAI 2024},\n\tpages={1551-1558}\n\tyear={2024},\n\tpublisher={IOS Press}\n}",
+            "pdf": "https://ebooks.iospress.nl/doi/10.3233/FAIA240660",
             "github": "https://github.com/NathanGavenski/CILO",
             "tags": ["imitation learning"]
         },
