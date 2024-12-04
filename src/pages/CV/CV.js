@@ -7,23 +7,27 @@ class Awards extends React.Component {
         super();
 
         let cv_url = "https://mozilla.github.io/pdf.js/web/viewer.html?file="
-        cv_url += "https://raw.githubusercontent.com/nathangavenski/nathangavenski.github.io/refs/heads/master/src/assets/CV.pdf"
-        cv_url += "#pagemode=none&zoom=page-width"
+        let github_url = "https://raw.githubusercontent.com/nathangavenski/nathangavenski.github.io/refs/heads/master/src/assets/CV.pdf"
+        cv_url += github_url + "#pagemode=none&zoom=page-width"
 
         this.state = {
             cv_url,
+            github_url,
             loading: false
         };
     }
 
     download = () => {
-        this.setState({loading: true})
-
+        this.setState({loading: true});
+        const link = document.createElement("a");
+        link.href = this.state.github_url;
+        link.click();
+        this.setState({loading: false});
     }
 
     render = () => {
-        let {cv_url, loading} = this.state
-        return template(cv_url, loading);
+        const {cv_url, loading} = this.state
+        return template(cv_url, loading, this.download);
     }
 }
 
