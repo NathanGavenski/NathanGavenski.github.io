@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 import { ThemeContext } from '../../services/ThemeService';
 import { NavigationContext } from '../../services/NavigationService';
 
-function template(checked, setChecked) {
+function template(checked, setChecked, cv_url) {
   return (
     <ThemeContext.Consumer>
       {({ theme, toggleTheme }) =>
@@ -48,10 +48,9 @@ function template(checked, setChecked) {
                       Awards, Grants and Projects
                     </Link>
                     <Link
-                      className={"nav-link nav"}
-                      target="_blank"
-                      rel="noreferrer"
-                      to="https://github.com/NathanGavenski/NathanGavenski.github.io/blob/master/src/assets/CV.pdf"
+                      className={"nav-link nav " + (menu === "cv" ? 'active' : '')}
+                      to="CV"
+                      onClick={(e) => toggleMenu(e)}
                     >
                       CV
                     </Link>

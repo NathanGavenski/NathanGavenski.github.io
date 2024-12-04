@@ -18,11 +18,12 @@ class Navbar extends React.Component {
 	}
 
 	render = () => {
+        let {checked} = this.state
 		return template(
-			this.state.checked,
-			this.setChecked
+		    checked,
+			this.setChecked,
 		);
-	}
+    }
 }
 
 export default Navbar;

@@ -1,0 +1,26 @@
+.cv {
+  .greetings {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0.5rem;
+
+    .col {
+      display: flex;
+      .emoji {
+        margin-right: 1.5rem;
+      }
+
+      .title, .emoji {
+        font-weight: bolder;
+        font-size: 2.5rem;
+      }
+    }
+
+    .download {
+      margin-bottom: 0.5rem;
+      width: fit-content;
+    }
+  }
+
+  
+}

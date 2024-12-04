@@ -1,4 +1,4 @@
-# Welcome to my Github Page 👋
+# Welcome to my GitHub Page 👋
 
 My name is Nathan Gavenski, and I'm from Brazil. Currently I'm a PhD student in [King's College London](https://www.kcl.ac.uk/). I have worked for the last 8 years as Scrum Master, QA automation and analyst, Front-end developer, researcher, and visiting professor. My main interests are all research involving agents, teaching, photography, traveling, and music. Don't be shy to contact me!
 
@@ -37,6 +37,7 @@ project
     |   |   Experiences
     |   |   Home
     |   |   Publications
+    |   |   CV
     |
     └───services
     |   |   NavigationService.json (ReactContext to keep track where the user is)
@@ -60,6 +61,6 @@ npm install && npm start
 
 ## TODO
 
-- [X] Save theme so the user doesn't has to change theme everytime it enters
+- [X] Save theme, so the user doesn't have to change theme every time it enters
 - [ ] Create a `experience.json`
-- [ ] Create a `FontSizeService` so the user can control font size
+- [ ] Create a `FontSizeService`, so the user can control font size
