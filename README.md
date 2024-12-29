@@ -29,9 +29,12 @@ project
     |   │   experience.json (soon™)
     |
     └───components
+    |   |   Award (for easier award creation - Row for the Awards page)
     |   |   Experience (for easier experience creation - Row for the Experiences page)
+    |   |   GitHubCard (for easier github cards - Row for the Awards, Project Section, page)
     |   |   Navbar
     |   |   Publication (for easier publication creation - Row for the Publications page)
+    |   |   Redirect (when in need of creating a url that in papers)
     |
     └───pages
     |   |   Experiences
@@ -40,6 +43,7 @@ project
     |   |   CV
     |
     └───services
+    |   |   GitHubService (collects data from repositories)
     |   |   NavigationService.json (ReactContext to keep track where the user is)
     |   |   PublicationsService.json (reads the json file)
     |   |   ThemeService.json (ReactContext to keep track of light/dark mode)
@@ -64,3 +68,4 @@ npm install && npm start
 - [X] Save theme, so the user doesn't have to change theme every time it enters
 - [ ] Create a `experience.json`
 - [ ] Create a `FontSizeService`, so the user can control font size
+- [ ] Add a GitHub token option

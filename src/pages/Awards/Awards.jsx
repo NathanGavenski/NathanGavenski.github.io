@@ -48,6 +48,7 @@ function template() {
                                 PyPi page
                             </a>
                             "
+                            github="https://github.com/NathanGavenski/IL-Datasets"
                         />
                         <Award
                             title="Python watcher"
@@ -69,11 +70,12 @@ function template() {
                                 PyPi page
                             </a>
                             "
+                            github="https://github.com/NathanGavenski/python-watcher"
                         />
                         <Award
                             title="Exhibition: Super Mario Bros: The Turing Quest"
                             year="2024"
-                            extra="The King's Festival of Artificial Intelligence"
+                            extra={["The King's Festival of Artificial Intelligence", "Royal Institution Experience: sensational senses"]}
                             misc="
                                 <a 
                                     className='link' 
@@ -81,6 +83,13 @@ function template() {
                                     target='_blank' rel='noreferrer'
                                 >
                                     Event page
+                                </a>
+                                <a 
+                                    className='link' 
+                                    href='https://safeandtrustedai.org/kings-festival-of-ai-super-mario-bros/' 
+                                    target='_blank' rel='noreferrer'
+                                >
+                                    More about it
                                 </a>
                             "
                         />
@@ -119,6 +128,11 @@ function template() {
                             <p className="section-title">Awards and grants</p>
                             <p className="divider" />
                         </div>
+                        <Award
+                            title="Fully-funded PhD Studentship"
+                            year="2022"
+                            extra={["UKRI Centre for Doctoral Training in Safe and Trusted AI", "King's College London"]}
+                        />
                         <Award
                             title="Google Award for Inclusion Research Award"
                             year="2022"

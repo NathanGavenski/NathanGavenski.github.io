@@ -1,6 +1,6 @@
 import "./CV.scss";
 import React from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Row, Col, Button } from "react-bootstrap";
 
 import { ThemeContext } from '../../services/ThemeService';
 
@@ -35,6 +35,7 @@ function template(cv_url, loading, download) {
                     width="100%"
                     height="100%"
                     frameborder="0"
+                    title="cv"
                   >
                   </iframe>
                     
