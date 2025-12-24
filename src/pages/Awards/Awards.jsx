@@ -29,6 +29,28 @@ function template() {
                             <p className="divider" />
                         </div>
                         <Award 
+                            title="Labyrinth"
+                            year="Active"
+                            extra="A maze environment for training and evaluating agents."
+                            misc="
+                            <a
+                                className='link'
+                                href='https://github.com/NathanGavenski/Labyrinth'
+                                target='_blank' rel='noreferrer'
+                            >
+                                GitHub page
+                            </a>
+                            <a
+                                className='link'
+                                href='https://github.com/NathanGavenski/Labyrinth'
+                                target='_blank' rel='noreferrer'
+                            >
+                                PyPi page
+                            </a>
+                            "
+                            github="https://github.com/NathanGavenski/Labyrinth"
+                        />
+                        <Award 
                             title="Imitation Learning Datasets"
                             year="Active"
                             extra="A project for creating imitation learning datasets based on HuggingFace weights and using multithreads for performance."
