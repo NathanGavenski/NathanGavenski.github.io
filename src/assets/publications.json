@@ -1,5 +1,23 @@
 {
     "publications": [{
+            "title": "Quantifying Generalisation in Imitation Learning",
+            "authors": "Gavenski, Nathan; and Rodrigues, Odinaldo",
+            "conference": "Advances in Neural Information Processing Systems",
+            "year": "NeurIPS 2025",
+            "bibtex": "@inproceedings{gavenski2025labyrinth,\n\ttitle={Quantifying Generalisation in Imitation Learning},\n\tauthor={Gavenski, N and Rodrigues, O},\n\tpublisher = {Curran Associates, Inc.},\n\tbooktitle = {Advances in Neural Information Processing Systems},\n\tyear={2025},\n\tvolume = {38}}",
+            "pdf": "", 
+            "github": "https://github.com/NathanGavenski/Labyrinth",
+            "tags": ["imitation learning", "software", "conference"]
+        },{
+            "title": "Automatic Verification of References of Wikidata Statements",
+            "authors": "Simperl, Elena; Rodrigues, Odinaldo; Meroño-Peñuela, Albert; Maia Rocha Amaral, Gabriel; Gavenski, Nathan; Redi, Miriam; Zhang, Bohui; and Zhao, Yihang",
+            "conference": "12th Annual Wiki Workshop",
+            "year": "2025",
+            "bibtex": "@inbook{elena2025prove,\n\ttitle = 'Introducing ProVe for Wikidata: Automatic Verification of References',\n\tabstract = 'This paper describes key aspects of ProVe - a Wikidata widget and accompanying Web API for automatic verification of references of Wikidata items. ProVe can be integrated in the regular workflow of Wikidata editors to help identify statements about items that need attention with respect to the quality of their references. ProVe automatically verbalises each statement (triple) about an item and analyses the (external) referenced documents to provide an indicative level of the quality of the item's references.',\n\tkeywords = 'reference verification, fact verification, knowledge graphs, Wikidata tools',\n\tauthor = 'Elena Simperl and Odinaldo Rodrigues and \{Merono Penuela\}, Albert and \{Maia Rocha Amaral\}, Gabriel and Nathan Gavenski and Jongmo Kim and Miriam Redi and Yihang Zhao',\n\tyear = '2025',\n\tmonth = apr,\n\tday = '14',\n\tlanguage = 'English',\n\tbooktitle = '12th Annual Wiki Workshop',\n\tpublisher = 'Wikimedia Foundation',}",
+            "pdf": "https://upload.wikimedia.org/wikipedia/commons/4/41/Automatic_Verification_of_References_of_Wikidata_Statements.pdf",
+            "github": "https://github.com/King-s-Knowledge-Graph-Lab/ProVe",
+            "tags": ["software", "workshop", "wiki"]
+        },{
             "title": "Explorative Imitation Learning: A Path Signature Approach for Continuous Environments",
             "authors": "Gavenski, Nathan; Monteiro, Juarez; Meneguzzi, Felipe; Luck, Michael; and Rodrigues, Odinaldo",
             "conference": "In Proceedings of the 27th European Conference on Artificial Intelligence",
