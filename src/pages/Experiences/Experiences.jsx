@@ -124,9 +124,17 @@ function template() {
             </div>
             <div className="conferences">
               <p className="section-divider">Reviewer for Conferences</p>
+              <Experience
+                title="International Conference on Autonomous Agents and Multiagent Systems (AAMAS)"
+                year="2023-2025"
+              />
               <Experience 
                 title="The International Joint Conference on Neural Networks (IJCNN)"
-                year="2021-2023"
+                year="2021-2025"
+              />
+              <Experience
+                title="International Joint Conference on Artificial Intelligence (IJCAI)"
+                year="2024-2025"
               />
               <Experience 
                 title="IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)"
@@ -134,11 +142,11 @@ function template() {
               />
               <Experience 
                 title="The British Machine Vision Conference (BMVC)"
-                year="2022-2023"
+                year="2022-2025"
               />
-              <Experience 
-                title="International Joint Conference On Artificial Intelligence (IJCAI)"
-                year="2023"
+              <Experience
+                title="IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)"
+                year="2022-2023"
               />
               <Experience 
                 title="IEEE Conference on Artificial Intelligence (IEEE CAI)"

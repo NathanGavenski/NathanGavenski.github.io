@@ -1,6 +1,6 @@
 name: Audit page and deploy to GitHub Pages
 
-on: [push]
+on: []
 
 jobs:
   lhci:

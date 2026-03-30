@@ -1,11 +1,38 @@
 {
     "publications": [{
+            "title": "When to ASK: Uncertainty-Gated Language Assistance for Reinforcement Learning",
+            "authors": "Monteiro, Juarez; Gavenski, Nathan; Zuin, Gianlucca; and Veloso, Adriano",
+            "conference": "In Proceedings of the International Joint Conference on Neural Networks",
+            "year": "IJCNN 2026",
+            "bibtex": "",
+            "pdf": "", 
+            "github": "",
+            "tags": ["reinforcement learning", "generalisation", "conference", "language models"]
+        },{
+            "title": "Beyond Mimicry: Toward Lifelong Adaptability in Imitation Learning",
+            "authors": "Gavenski, Nathan; Meneguzzi, Felipe; and Rodrigues, Odinaldo",
+            "conference": "The 25th International Conference on Autonomous Agents and Multi-Agent Systems (Blue Sky Track)",
+            "year": "AAMAS 2026",
+            "bibtex": "@inproceedings{gavenski2026beyond,\n\ttitle={Beyond Mimicry: Toward Lifelong Adaptability in Imitation Learning},\n\tauthor={Nathan Gavenski and Felipe Meneguzzi and Odinaldo Rodrigues},\n\tbooktitle={The 25th International Conference on Autonomous Agents and Multi-Agent Systems},\n\tyear={2026},\n\turl={https://cyprusconferences.org/aamas2026/}\n}",
+            "pdf": "https://kclpure.kcl.ac.uk/ws/portalfiles/portal/365280071/_2025_AAMAS_CRL_Blue_Sky_2_.pdf", 
+            "github": "",
+            "tags": ["imitation learning", "generalisation", "conference"]
+        },{
+            "title": "Towards Generalisable Imitation Learning Through Conditioned Transition Estimation and Online Behaviour Alignment",
+            "authors": "Gavenski, Nathan; Leonetti, Matteo; and Rodrigues, Odinaldo",
+            "conference": "The 25th International Conference on Autonomous Agents and Multi-Agent Systems",
+            "year": "AAMAS 2026",
+            "bibtex": "@inproceedings{gavenski2026towards,\n\ttitle={Towards Generalisable Imitation Learning Through Conditioned Transition Estimation and Online Behaviour Alignment},\n\tauthor={Nathan Gavenski and Matteo Leonetti and Odinaldo Rodrigues},\n\tbooktitle={The 25th International Conference on Autonomous Agents and Multi-Agent Systems},\n\tyear={2026},\n\turl={https://openreview.net/forum?id=qZIsZfYzIS}\n}",
+            "pdf": "https://kclpure.kcl.ac.uk/ws/portalfiles/portal/362737322/_2025_AAMAS_UfO.pdf", 
+            "github": "https://github.com/NathanGavenski/UfO",
+            "tags": ["imitation learning", "generalisation", "conference"]
+        },{
             "title": "Quantifying Generalisation in Imitation Learning",
             "authors": "Gavenski, Nathan; and Rodrigues, Odinaldo",
-            "conference": "Advances in Neural Information Processing Systems",
+            "conference": "The Thirty-ninth Annual Conference on Neural Information Processing Systems Datasets and Benchmarks Track",
             "year": "NeurIPS 2025",
             "bibtex": "@inproceedings{gavenski2025labyrinth,\n\ttitle={Quantifying Generalisation in Imitation Learning},\n\tauthor={Gavenski, N and Rodrigues, O},\n\tpublisher = {Curran Associates, Inc.},\n\tbooktitle = {Advances in Neural Information Processing Systems},\n\tyear={2025},\n\tvolume = {38}}",
-            "pdf": "", 
+            "pdf": "https://openreview.net/pdf?id=rf8c4zw9lO", 
             "github": "https://github.com/NathanGavenski/Labyrinth",
             "tags": ["imitation learning", "software", "conference"]
         },{
@@ -13,7 +40,7 @@
             "authors": "Simperl, Elena; Rodrigues, Odinaldo; Meroño-Peñuela, Albert; Maia Rocha Amaral, Gabriel; Gavenski, Nathan; Redi, Miriam; Zhang, Bohui; and Zhao, Yihang",
             "conference": "12th Annual Wiki Workshop",
             "year": "2025",
-            "bibtex": "@inbook{elena2025prove,\n\ttitle = 'Introducing ProVe for Wikidata: Automatic Verification of References',\n\tabstract = 'This paper describes key aspects of ProVe - a Wikidata widget and accompanying Web API for automatic verification of references of Wikidata items. ProVe can be integrated in the regular workflow of Wikidata editors to help identify statements about items that need attention with respect to the quality of their references. ProVe automatically verbalises each statement (triple) about an item and analyses the (external) referenced documents to provide an indicative level of the quality of the item's references.',\n\tkeywords = 'reference verification, fact verification, knowledge graphs, Wikidata tools',\n\tauthor = 'Elena Simperl and Odinaldo Rodrigues and \{Merono Penuela\}, Albert and \{Maia Rocha Amaral\}, Gabriel and Nathan Gavenski and Jongmo Kim and Miriam Redi and Yihang Zhao',\n\tyear = '2025',\n\tmonth = apr,\n\tday = '14',\n\tlanguage = 'English',\n\tbooktitle = '12th Annual Wiki Workshop',\n\tpublisher = 'Wikimedia Foundation',}",
+            "bibtex": "@inbook{elena2025prove,\n\ttitle = 'Introducing ProVe for Wikidata: Automatic Verification of References',\n\tabstract = 'This paper describes key aspects of ProVe - a Wikidata widget and accompanying Web API for automatic verification of references of Wikidata items. ProVe can be integrated in the regular workflow of Wikidata editors to help identify statements about items that need attention with respect to the quality of their references. ProVe automatically verbalises each statement (triple) about an item and analyses the (external) referenced documents to provide an indicative level of the quality of the item's references.',\n\tkeywords = 'reference verification, fact verification, knowledge graphs, Wikidata tools',\n\tauthor = 'Elena Simperl and Odinaldo Rodrigues and \\{Merono Penuela\\}, Albert and \\{Maia Rocha Amaral\\}, Gabriel and Nathan Gavenski and Jongmo Kim and Miriam Redi and Yihang Zhao',\n\tyear = '2025',\n\tmonth = apr,\n\tday = '14',\n\tlanguage = 'English',\n\tbooktitle = '12th Annual Wiki Workshop',\n\tpublisher = 'Wikimedia Foundation',}",
             "pdf": "https://upload.wikimedia.org/wikipedia/commons/4/41/Automatic_Verification_of_References_of_Wikidata_Statements.pdf",
             "github": "https://github.com/King-s-Knowledge-Graph-Lab/ProVe",
             "tags": ["software", "workshop", "wiki"]

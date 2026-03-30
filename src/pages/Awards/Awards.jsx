@@ -151,6 +151,11 @@ function template() {
                             <p className="divider" />
                         </div>
                         <Award
+                            title="Nominated for the Outstanding Teaching Assistant Award"
+                            year="2025"
+                            extra="Department of Informatics, King's College London"
+                        />
+                        <Award
                             title="Fully-funded PhD Studentship"
                             year="2022"
                             extra={["UKRI Centre for Doctoral Training in Safe and Trusted AI", "King's College London"]}
@@ -158,7 +163,7 @@ function template() {
                         <Award
                             title="Google Award for Inclusion Research Award"
                             year="2022"
-                            extra="With Prof. Rodrigo C. Barros"                       
+                            extra={["With Prof. Rodrigo C. Barros", "Google Research"]}                       
                         />
                         <Award
                             title="Summa cum laude - Master's Dissertation"
