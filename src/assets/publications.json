@@ -1,12 +1,21 @@
 {
     "publications": [{
+            "title": "Online Goal Recognition using Path Signature and Dynamic Time Warping",
+            "authors": "Tesch, Douglas; Gavenski, Nathan; Amado, Leonardo; Rodrigues, Odinaldo; and Meneguzzi, Felipe",
+            "conference": "In Proceedings of the Thirty-Fifth International Joint Conference on Artificial Intelligence",
+            "year": "IJCAI 2026",
+            "bibtex": "@inproceedings{tesch2026online,\n\ttitle={Online Goal Recognition using Path Signature and Dynamic Time Warping},\n\tauthor={Tesch, Douglas and Gavenski, Nathan and Amado, Leonardo and Rodrigues, Odinaldo and Meneguzzi, Felipe},\n\tbooktitle={Proceedings of the Thirty-Fifth International Joint Conference on Artificial Intelligence},\n\tseries={IJCAI '26},\n\tyear={2026},\n\tpublisher={International Joint Conferences on Artificial Intelligence Organization}\n}",
+            "pdf": "",
+            "github": "",
+            "tags": ["goal recognition", "path signatures", "dynamic time warping", "conference", "planning"]
+        },{
             "title": "When to ASK: Uncertainty-Gated Language Assistance for Reinforcement Learning",
             "authors": "Monteiro, Juarez; Gavenski, Nathan; Zuin, Gianlucca; and Veloso, Adriano",
             "conference": "In Proceedings of the International Joint Conference on Neural Networks",
             "year": "IJCNN 2026",
-            "bibtex": "",
-            "pdf": "", 
-            "github": "",
+            "bibtex": "@inproceedings{monteiro2026when,\n\ttitle={When to ASK: Uncertainty-Gated Language Assistance for Reinforcement Learning},\n\tauthor={Juarez Monteiro and Nathan Gavenski and Gianlucca Zuin and Adriano Veloso},\n\tbooktitle={2026 International Joint Conference on Neural Networks (IJCNN)},\n\tyear={2026},\n\turl={https://attend.ieee.org/wcci-2026/}\n}",
+            "pdf": "https://kclpure.kcl.ac.uk/portal/en/publications/when-to-ask-uncertainty-gated-language-assistance-for-reinforceme/", 
+            "github": "https://github.com/jrzmnt/ask-rl",
             "tags": ["reinforcement learning", "generalisation", "conference", "language models"]
         },{
             "title": "Beyond Mimicry: Toward Lifelong Adaptability in Imitation Learning",
