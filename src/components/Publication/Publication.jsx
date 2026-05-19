@@ -2,8 +2,11 @@ import "./Publication.scss";
 import React from "react";
 
 import { Overlay, Tooltip } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
-function template(title, authors, conference, year, bibtex, pdf, github, copy, copyState, copyRef) {
+function template(title, authors, conference, year, bibtex, pdf, github, copy, copyState, copyRef, presentation) {
+  const hasSlides = !!presentation?.slides;
+  const hasAnyLink = pdf.length > 0 || bibtex.length > 0 || github.length > 0;
   return (
     <div className="publication">
       <div className="text">
@@ -16,18 +19,18 @@ function template(title, authors, conference, year, bibtex, pdf, github, copy, c
         <br />
         <div className="links">
           {
-            pdf.length > 0 
+            pdf.length > 0
             && <a href={pdf} target="_blank" rel="noreferrer" className="pdf">[PDF]</a>
           }
           {
-            bibtex.length > 0 
+            bibtex.length > 0
             && (
               <div className="button">
-                <button 
-                  className="bibtex" 
-                  ref={copyRef} 
-                  onClick={copy} 
-                  onKeyDown={copy} 
+                <button
+                  className="bibtex"
+                  ref={copyRef}
+                  onClick={copy}
+                  onKeyDown={copy}
                   style={{ marginLeft: (pdf.length > 0) ? "0.5rem" : "0"}
                 }>
                   [Bibtex]
@@ -43,17 +46,30 @@ function template(title, authors, conference, year, bibtex, pdf, github, copy, c
             )
           }
           {
-            github.length > 0 
+            github.length > 0
             && (
-              <a 
-                href={github} 
-                target="_blank" 
-                rel="noreferrer" 
-                className="github" 
+              <a
+                href={github}
+                target="_blank"
+                rel="noreferrer"
+                className="github"
                 style={{ marginLeft: (bibtex.length > 0) || (pdf.length > 0) ? "0.5rem" : "0"}}
               >
                 [GitHub]
               </a>
+            )
+          }
+          {
+            hasSlides
+            && (
+              <Link
+                to="/publications/slides"
+                state={{ title, authors, conference, year, bibtex, pdf, github, presentation }}
+                className="slides-link"
+                style={{ marginLeft: hasAnyLink ? "0.5rem" : "0" }}
+              >
+                [Slides]
+              </Link>
             )
           }
         </div>

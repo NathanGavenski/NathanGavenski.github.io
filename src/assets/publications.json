@@ -5,8 +5,8 @@
             "conference": "In Proceedings of the Thirty-Fifth International Joint Conference on Artificial Intelligence",
             "year": "IJCAI 2026",
             "bibtex": "@inproceedings{tesch2026online,\n\ttitle={Online Goal Recognition using Path Signature and Dynamic Time Warping},\n\tauthor={Tesch, Douglas and Gavenski, Nathan and Amado, Leonardo and Rodrigues, Odinaldo and Meneguzzi, Felipe},\n\tbooktitle={Proceedings of the Thirty-Fifth International Joint Conference on Artificial Intelligence},\n\tseries={IJCAI '26},\n\tyear={2026},\n\tpublisher={International Joint Conferences on Artificial Intelligence Organization}\n}",
-            "pdf": "",
-            "github": "",
+            "pdf": "https://arxiv.org/abs/2605.07736",
+            "github": "https://github.com/douglasat/GRPS",
             "tags": ["goal recognition", "path signatures", "dynamic time warping", "conference", "planning"]
         },{
             "title": "When to ASK: Uncertainty-Gated Language Assistance for Reinforcement Learning",
@@ -25,7 +25,15 @@
             "bibtex": "@inproceedings{gavenski2026beyond,\n\ttitle={Beyond Mimicry: Toward Lifelong Adaptability in Imitation Learning},\n\tauthor={Nathan Gavenski and Felipe Meneguzzi and Odinaldo Rodrigues},\n\tbooktitle={The 25th International Conference on Autonomous Agents and Multi-Agent Systems},\n\tyear={2026},\n\turl={https://cyprusconferences.org/aamas2026/}\n}",
             "pdf": "https://kclpure.kcl.ac.uk/ws/portalfiles/portal/365280071/_2025_AAMAS_CRL_Blue_Sky_2_.pdf", 
             "github": "",
-            "tags": ["imitation learning", "generalisation", "conference"]
+            "tags": ["imitation learning", "generalisation", "conference"],
+            "presentation": {
+                "title": "Beyond Mimicry: Toward Lifelong Adaptability in Imitation Learning",
+                "event": "AAMAS 2026 Blue Sky Track",
+                "date": "25th to 29th May 2026",
+                "url": "https://cyprusconferences.org/aamas2026/",
+                "slides": "2025__AAMAS___CRL__Blue_Sky.pdf",
+                "abstract": "Imitation learning stands at a crossroads: despite decades of progress, current imitation learning agents remain sophisticated memorisation machines, excelling at replay but failing when contexts shift or goals evolve. This paper argues that this failure is not technical but foundational: imitation learning has been optimised for the wrong objective. We propose a research agenda that redefines success from perfect replay to compositional adaptability. Such adaptability hinges on learning behavioural primitives once and recombining them through novel contexts without retraining. We establish metrics for compositional generalisation, propose hybrid architectures, and outline interdisciplinary research directions drawing on cognitive science and cultural evolution. Agents that embed adaptability at the core of imitation learning thus have an essential capability for operating in an open-ended world."
+            }
         },{
             "title": "Towards Generalisable Imitation Learning Through Conditioned Transition Estimation and Online Behaviour Alignment",
             "authors": "Gavenski, Nathan; Leonetti, Matteo; and Rodrigues, Odinaldo",
@@ -34,7 +42,15 @@
             "bibtex": "@inproceedings{gavenski2026towards,\n\ttitle={Towards Generalisable Imitation Learning Through Conditioned Transition Estimation and Online Behaviour Alignment},\n\tauthor={Nathan Gavenski and Matteo Leonetti and Odinaldo Rodrigues},\n\tbooktitle={The 25th International Conference on Autonomous Agents and Multi-Agent Systems},\n\tyear={2026},\n\turl={https://openreview.net/forum?id=qZIsZfYzIS}\n}",
             "pdf": "https://kclpure.kcl.ac.uk/ws/portalfiles/portal/362737322/_2025_AAMAS_UfO.pdf", 
             "github": "https://github.com/NathanGavenski/UfO",
-            "tags": ["imitation learning", "generalisation", "conference"]
+            "tags": ["imitation learning", "generalisation", "conference"],
+            "presentation": {
+                "title": "Towards Generalisable Imitation Learning Through Conditioned Transition Estimation and Online Behaviour Alignment",
+                "event": "AAMAS 2026",
+                "date": "25th to 29th May 2026",
+                "url": "https://openreview.net/forum?id=qZIsZfYzIS",
+                "slides": "2025__AAMAS___UfO.pdf",
+                "abstract": "State-of-the-art imitation learning from observation methods (ILfO) have recently made significant progress, but they still have some limitations: they need action-based supervised optimisation, assume that states have a single optimal action, and tend to apply teacher actions without full consideration of the actual environment state. In this work, we propose Unsupervised Imitation Learning from Observation (UfO) that addresses all of these limitations. UfO learns a policy through a two-stage process, in which the agent first obtains an approximation of the teacher’s true actions in the observed state transitions, and then refines the learned policy further by adjusting agent trajectories to closely align them with the teacher’s. Experiments we conducted in five widely used environments show that UfO not only outperforms the teacher and all other ILfO methods but also displays the smallest standard deviation. This reduction in standard deviation indicates better generalisation in unseen scenarios."
+            }
         },{
             "title": "Quantifying Generalisation in Imitation Learning",
             "authors": "Gavenski, Nathan; and Rodrigues, Odinaldo",

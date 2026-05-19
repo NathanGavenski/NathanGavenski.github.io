@@ -8,6 +8,7 @@ import Navbar from './components/Navbar';
 import Redirect from './components/Redirect/Redirect';
 import Home from './pages/Home';
 import Publications from './pages/Publications';
+import Presentation from './pages/Presentation';
 import Experiences from './pages/Experiences';
 import Awards from './pages/Awards/Awards';
 import CV from './pages/CV/CV';
@@ -74,6 +75,7 @@ class App extends React.Component {
             <Routes>
               <Route path='/' element={<Home />} />
               <Route path='publications' element={<Publications />} />
+              <Route path='publications/slides' element={<Presentation />} />
               <Route path='experience' element={<Experiences />} />
               <Route path='awards' element={<Awards />} />
               <Route path='CV' element={<CV />} />

@@ -17,6 +17,7 @@ class Publication extends React.Component {
       bibtex: publication.bibtex,
       pdf: publication.pdf,
       github: publication.github,
+      presentation: publication.presentation || {},
     }
   }
 
@@ -40,6 +41,7 @@ class Publication extends React.Component {
       this.copy,
       this.state.copy,
       this.copyRef,
+      this.state.presentation,
     );
   }
 }
